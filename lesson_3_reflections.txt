@@ -8,3 +8,9 @@ as a backup
 code might not be ready to publish
 might not want to pull changes from other contributors
 
+# Describe the differences between forks, clones, and branches. When would you use one instead of another?
+fork is a clone between github repositories
+clone copies repositories locally or from github to a local machine
+a branch is a label for a series of commits in a repository, regardless of whether it's local or remote.
+I'd use a branch to work on a feature or version of the master code, but with the possibility of updating the master code as well as the feature
+i'd use a fork to work independently on a project started by someone else
