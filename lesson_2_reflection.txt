@@ -1,0 +1,6 @@
+# What happens when you initialize a repository? Why do you need to do it?
+git creates a directory containing metadat files which it uses to track the file history
+without this, git doesn't know that I want it to watch the files in this repository
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an intermediate area which allows me to select which files from the working directory I want to commit to the repository. This allows me to split my chnages into multiple commits 
+or hold off on committing files which haven't been finalised in order to preseve the 'one commit per logical change' paradigm
