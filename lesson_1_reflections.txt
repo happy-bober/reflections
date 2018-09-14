@@ -1,0 +1,36 @@
+# How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff pointed to a specific, numbered line
+Saved time comparing many correct lines
+Hard to compare lines in a language you don't know - need to go symbol by symbol. 
+
+# How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Easier to roll back in case of disaster
+follow logic of how the code evolved
+see solutions that have been tried but haven't worked
+backup and recovery
+
+# What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Commits occur at logical checkpoints
+can make sure commited code always compiles
+can moderate the size of changes and the number of previous versions
+can add descriptions to make clear how versions are different
+might not commit often enough or too often, or forget to commit at all
+added manual process
+
+# Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git was designed specifically for version control of coding where files are often inter-ralated and depend on each other
+Google Docs etc. were designed for storage and colaborative editig of various files which are not necessarily inter-related
+
+# How can you use the commands git log and git diff to view the history of files?
+git log views the history of all the commits in the repostiroty
+can be used to find which commits introduced the code which we want to review
+git diff compares two commits, showing what changes have been made, including line numbers
+
+# How might using version control make you more confident to make changes that could break something?
+I can safely experiment and break code because I can roll back to a previous verision.
+It is easier to track down bugs even if I don't fully test after each commit as I can do it later by doing a checkout
+
+# Now that you have your workspace set up, what do you want to try using Git for?
+branching out and working on separate features
+merging 2 versions of the same file
+rolling back to a previous version
