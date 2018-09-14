@@ -17,3 +17,7 @@ by allowing chains of changes to the code to happen to different version of the 
 # How do the diagrams help you visualize the branch structure?
 The diagrams make it clear which commits are reachable from which branch. 
 They make it clear which version of the production code each development branch is based on
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The files are merged to keep the changes from both branches made to the commit which they split up at. 
+We merge into the branch which is currently checked out, even if it's not specified in the merge command, which is why the 'main' branch is a straight line on the diagram
