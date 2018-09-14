@@ -1,0 +1,3 @@
+# What happens when you initialize a repository? Why do you need to do it?
+git creates a directory containing metadat files which it uses to track the file history
+without this, git doesn't know that I want it to watch the files in this repository
