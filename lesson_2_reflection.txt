@@ -7,3 +7,13 @@ or hold off on committing files which haven't been finalised in order to preseve
 
 # How can you use the staging area to make sure you have one commit per logical change?
 I can only commit changes to the files which included the 1 logical change instead of commiting all files
+
+# What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When creating separate version of the program, e.g. language versions 
+or experimenting with adding extra features
+or for multiple people working on features concurrently
+by allowing chains of changes to the code to happen to different version of the code
+
+# How do the diagrams help you visualize the branch structure?
+The diagrams make it clear which commits are reachable from which branch. 
+They make it clear which version of the production code each development branch is based on
