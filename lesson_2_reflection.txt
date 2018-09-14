@@ -21,3 +21,7 @@ They make it clear which version of the production code each development branch 
 # What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The files are merged to keep the changes from both branches made to the commit which they split up at. 
 We merge into the branch which is currently checked out, even if it's not specified in the merge command, which is why the 'main' branch is a straight line on the diagram
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging makes it quick and painless to include changes to different sections of the code
+It might not take into account any dependencies created by the changes
